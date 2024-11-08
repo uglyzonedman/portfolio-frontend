@@ -1,0 +1,28 @@
+.home {
+	margin-top: 62px;
+	&__container {
+		max-width: 1047px;
+		margin: 0 auto;
+	}
+	&__intro {
+		&__content {
+			&__left {
+				max-width: 537px;
+				width: 100%;
+				&__title {
+					font-size: 32px;
+					font-weight: 600;
+					color: #fff;
+					span {
+						color: #c778dd;
+					}
+				}
+				&__description {
+					color: #abb2bf;
+					font-size: 16px;
+					font-weight: normal;
+				}
+			}
+		}
+	}
+}
