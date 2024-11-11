@@ -70,9 +70,10 @@
 				width: 90px;
 				height: 90px;
 				right: 0;
-				border-left: 1px solid #abb2bf;
-				border-top: 1px solid #abb2bf;
-				border-bottom: 1px solid #abb2bf;
+				border-left: 3px solid #abb2bf;
+				border-top: 3px solid #abb2bf;
+				border-bottom: 3px solid #abb2bf;
+				animation: pulse 4s linear infinite;
 			}
 			&__text {
 				position: relative;
@@ -113,5 +114,38 @@
 				}
 			}
 		}
+	}
+}
+
+@keyframes pulse {
+	0% {
+		border-left-color: #abb2bf;
+		border-top-color: #abb2bf;
+		border-right-color: #abb2bf;
+		border-bottom-color: #abb2bf;
+	}
+	25% {
+		border-left-color: transparent;
+		border-top-color: transparent;
+		border-right-color: #abb2bf;
+		border-bottom-color: transparent;
+	}
+	50% {
+		border-left-color: transparent;
+		border-top-color: #abb2bf;
+		border-right-color: transparent;
+		border-bottom-color: transparent;
+	}
+	75% {
+		border-left-color: #abb2bf;
+		border-top-color: transparent;
+		border-right-color: transparent;
+		border-bottom-color: transparent;
+	}
+	100% {
+		border-left-color: #abb2bf;
+		border-top-color: #abb2bf;
+		border-right-color: transparent;
+		border-bottom-color: #abb2bf;
 	}
 }

@@ -1,5 +1,6 @@
 .home {
 	&__projects {
+		position: relative;
 		margin-top: 140px;
 		&__header {
 			display: flex;
@@ -34,6 +35,10 @@
 			}
 		}
 		&__list {
+			margin-top: 48px;
+			display: grid;
+			grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+			gap: 16px;
 			&__item {
 				border: 1px solid #abb2bf;
 				max-width: 330px;
@@ -51,5 +56,35 @@
 				}
 			}
 		}
+		&__dots {
+			max-width: 16px;
+			width: 100%;
+			position: absolute;
+			left: 17px;
+			display: grid;
+			grid-template-columns: repeat(5, 8px);
+			top: 50%;
+			row-gap: 16px;
+			column-gap: 16px;
+			&__dot {
+				background: #fff;
+				width: 8px;
+				height: 8px;
+				border-radius: 50%;
+				opacity: 0;
+				animation: fadeDot 1.5s infinite;
+				animation-delay: calc(0.2s * var(--i));
+			}
+		}
+	}
+}
+
+@keyframes fadeDot {
+	0%,
+	100% {
+		opacity: 0.1;
+	}
+	50% {
+		opacity: 1;
 	}
 }

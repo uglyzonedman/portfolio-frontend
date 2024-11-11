@@ -7,6 +7,8 @@ const HomeProjectsList = () => {
 	return (
 		<div className={styles.home__projects__list}>
 			<Project />
+			<Project />
+			<Project />
 		</div>
 	)
 }
