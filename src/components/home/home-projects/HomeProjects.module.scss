@@ -1,0 +1,55 @@
+.home {
+	&__projects {
+		margin-top: 140px;
+		&__header {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			&__left {
+				display: flex;
+				align-items: center;
+				&__title {
+					display: flex;
+					align-items: center;
+					font-size: 32px;
+					color: #fff;
+					font-weight: 500;
+					span {
+						color: #c778dd;
+						display: block;
+					}
+				}
+				&__line {
+					display: block;
+					margin-left: 16px;
+					background: #c778dd;
+					width: 511px;
+					height: 1px;
+				}
+			}
+			&__right {
+				font-size: 16px;
+				font-weight: 500;
+				color: #fff;
+			}
+		}
+		&__list {
+			&__item {
+				border: 1px solid #abb2bf;
+				max-width: 330px;
+				width: 100%;
+				&__techologies {
+					border-bottom: 1px solid #abb2bf;
+					display: flex;
+					padding: 8px;
+					&__item {
+						margin-right: 8px;
+						font-size: 16px;
+						font-weight: normal;
+						color: #abb2bf;
+					}
+				}
+			}
+		}
+	}
+}

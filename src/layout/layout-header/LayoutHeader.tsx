@@ -36,7 +36,7 @@ const LayoutHeader = () => {
 							))}
 						</ul>
 						<button className={styles.header__content__navigation__lang}>
-							<span>RU</span>
+							<span>EN</span>
 							<ArrowSvg />
 						</button>
 					</div>

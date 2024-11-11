@@ -6,6 +6,9 @@
 	}
 	&__intro {
 		&__content {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
 			&__left {
 				max-width: 537px;
 				width: 100%;
@@ -18,9 +21,95 @@
 					}
 				}
 				&__description {
+					margin-top: 32px;
 					color: #abb2bf;
 					font-size: 16px;
 					font-weight: normal;
+				}
+				&__contact {
+					display: block;
+					margin-top: 32px;
+					font-size: 16px;
+					font-weight: 500;
+					border: 1px solid #c778dd;
+					color: #fff;
+					padding: 8px 16px;
+				}
+			}
+			&__user {
+				&__info {
+					display: flex;
+					align-items: center;
+					border: 1px solid #abb2bf;
+					max-width: 402px;
+					width: 100%;
+					margin: 0 auto;
+					padding: 8px;
+					&__color {
+						width: 16px;
+						height: 16px;
+						margin-right: 10px;
+						background: #c778dd;
+					}
+					&__text {
+						font-size: 16px;
+						color: #abb2bf;
+						span {
+							color: #fff;
+						}
+					}
+				}
+			}
+		}
+		&__phrase {
+			max-width: 712px;
+			width: 100%;
+			margin: 112px auto 0;
+			&__block {
+				position: absolute;
+				width: 90px;
+				height: 90px;
+				right: 0;
+				border-left: 1px solid #abb2bf;
+				border-top: 1px solid #abb2bf;
+				border-bottom: 1px solid #abb2bf;
+			}
+			&__text {
+				position: relative;
+				border: 1px solid #abb2bf;
+				padding: 16px;
+				p {
+					text-align: center;
+					font-size: 24px;
+					color: #fff;
+					font-weight: 500;
+				}
+				&__marks {
+					position: absolute;
+					top: -16px;
+					z-index: 99;
+					font-size: 42px;
+				}
+			}
+			&__author {
+				position: relative;
+				max-width: 202px;
+				width: 100%;
+				float: right;
+				font-size: 24px;
+				color: #fff;
+				font-weight: 500;
+				text-align: center;
+
+				border-left: 1px solid #abb2bf;
+				border-right: 1px solid #abb2bf;
+				border-bottom: 1px solid #abb2bf;
+				padding: 16px;
+				&__marks {
+					position: absolute;
+
+					top: -16px;
+					right: 15px;
 				}
 			}
 		}
