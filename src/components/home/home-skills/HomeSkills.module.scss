@@ -102,6 +102,8 @@
 			&__right {
 				&__items {
 					display: grid;
+					direction: rtl;
+					grid-auto-flow: dense;
 					grid-template-columns: repeat(3, 176px);
 					gap: 16px;
 					&__item {

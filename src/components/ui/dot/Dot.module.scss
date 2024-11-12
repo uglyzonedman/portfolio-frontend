@@ -1,0 +1,19 @@
+.dot {
+	background: #fff;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	opacity: 0;
+	animation: fadeDot 1.5s infinite;
+	animation-delay: calc(0.2s * var(--i));
+}
+
+@keyframes fadeDot {
+	0%,
+	100% {
+		opacity: 0.1;
+	}
+	50% {
+		opacity: 1;
+	}
+}
