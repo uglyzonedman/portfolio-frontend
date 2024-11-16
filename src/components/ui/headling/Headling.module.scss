@@ -1,0 +1,31 @@
+.headling {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	&__left {
+		display: flex;
+		align-items: center;
+		&__title {
+			display: flex;
+			align-items: center;
+			font-size: 32px;
+			color: #fff;
+			font-weight: 500;
+			span {
+				color: #c778dd;
+				display: block;
+			}
+		}
+		&__line {
+			display: block;
+			margin-left: 16px;
+			background: #c778dd;
+			height: 1px;
+		}
+	}
+	&__right {
+		font-size: 16px;
+		font-weight: 500;
+		color: #fff;
+	}
+}

@@ -1,0 +1,48 @@
+.footer {
+	margin-top: 146px;
+	border-top: 1px solid #abb2bf;
+	padding: 32px;
+	&__content {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		&__left {
+			&__logo {
+				display: flex;
+				&__title {
+					font-size: 16px;
+					font-weight: bold;
+					color: #fff;
+					margin-left: 8px;
+				}
+			}
+			&__description {
+				margin-top: 16px;
+				font-size: 16px;
+				color: #abb2bf;
+			}
+		}
+		&__right {
+			&__title {
+				font-size: 24px;
+				font-weight: 500;
+				color: #fff;
+			}
+			&__links {
+				margin-top: 10px;
+				display: flex;
+				align-items: center;
+				&__item {
+					display: block;
+					margin-right: 10px;
+				}
+			}
+		}
+	}
+	&__copyright {
+		margin-top: 48px;
+		text-align: center;
+		color: #abb2bf;
+		font-size: 16px;
+	}
+}

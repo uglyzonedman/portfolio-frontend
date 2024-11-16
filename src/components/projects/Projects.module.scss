@@ -1,0 +1,38 @@
+.projects {
+	margin-top: 56px;
+	&__content {
+		&__title {
+			display: block;
+			font-size: 32px;
+			font-weight: 600;
+			color: #fff;
+			span {
+				color: #c778dd;
+			}
+		}
+		&__description {
+			margin-top: 14px;
+			font-size: 16px;
+			color: #abb2bf;
+		}
+		&__complete {
+			margin-top: 68px;
+			&__items {
+				margin-top: 48px;
+				display: grid;
+				grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+				row-gap: 32px;
+				column-gap: 16px;
+			}
+			&__title {
+				display: block;
+				font-size: 32px;
+				font-weight: 600;
+				color: #fff;
+				span {
+					color: #c778dd;
+				}
+			}
+		}
+	}
+}

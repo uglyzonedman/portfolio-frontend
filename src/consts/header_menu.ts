@@ -13,7 +13,7 @@ export const headerMenu: HeaderMenuType[] = [
 	{
 		id: 2,
 		name: '#works',
-		link: '/works',
+		link: '/projects',
 	},
 	{
 		id: 3,
