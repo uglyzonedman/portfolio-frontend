@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './HomeAbout.module.scss'
 import Container from '../../ui/container/Container'
 import Headling from '../../ui/headling/Headling'
-import user1 from '../../../assets/User1.png'
+import user1 from '../../../assets/user1.png'
 import Image from 'next/image'
 const HomeAbout = () => {
 	return (
@@ -20,15 +20,21 @@ const HomeAbout = () => {
 							<div className={styles.home__about__content__left__description}>
 								<p>Hello, I’m Elias!</p>
 								<p>
-									I’m a self-taught front-end developer based in Kyiv, Ukraine.
-									I can develop responsive websites from scratch and raise them
-									into modern user-friendly web experiences.
+									I’m a self-taught front-end developer based in Astana,
+									Kazakhstan. I specialize in developing responsive websites
+									from scratch and transforming them into modern, user-friendly
+									web experiences.
 								</p>
 								<p>
-									Transforming my creativity and knowledge into websites has
-									been my passion for over a year. I have been helping various
-									clients to establish their presence online. I always strive to
-									learn about the newest technologies and frameworks.
+									For over a year, I’ve been turning my creativity and technical
+									knowledge into functional, visually appealing websites. I work
+									on projects of varying complexity, helping clients establish
+									and enhance their online presence.
+								</p>
+								<p>
+									I’m always eager to expand my skills, keeping up with the
+									latest technologies and frameworks to deliver innovative
+									solutions tailored to each project’s unique needs.
 								</p>
 							</div>
 						</div>

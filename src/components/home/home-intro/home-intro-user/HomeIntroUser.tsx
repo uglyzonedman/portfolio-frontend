@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from '../../Home.module.scss'
 import Image from 'next/image'
-import user from '../../../../assets/User.png'
+import user from '../../../../assets/user.png'
 
 const HomeIntroUser = () => {
 	return (

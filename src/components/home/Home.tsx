@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 import styles from './Home.module.scss'
 import HomeIntro from './home-intro/HomeIntro'
